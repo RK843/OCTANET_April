@@ -9,7 +9,7 @@ html,body{
 }
 #main{
     width: 100%;
-    min-height: 80vh;
+    min-height: 95vh;
     background-image: url("https://d2m3nfprmhqjvd.cloudfront.net/blog/20230522183738/BMW-M340i-1160x653.webp");
     background-size: cover;
     background-position: center;
@@ -34,4 +34,17 @@ html,body{
     /* margin: 8px; */
     
 
+}
+.img{
+    width: 100px;
+    height: 60px;
+}
+.ri-search-line{
+    font-size: 25px;
+}
+.ri-shopping-cart-line{
+    font-size: 25px;
+}
+.ri-map-pin-line{
+    font-size: 25px;
 }
