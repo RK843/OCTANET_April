@@ -10,7 +10,7 @@ html,body{
 #main{
     width: 100%;
     min-height: 95vh;
-    background-image: url("https://d2m3nfprmhqjvd.cloudfront.net/blog/20230522183738/BMW-M340i-1160x653.webp");
+    background-image: url("https://www.carscoops.com/wp-content/uploads/2022/03/2025-Chrysler-Airflow-1024x576.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -20,31 +20,199 @@ html,body{
     flex-direction: row;
     font-family: "Roboto Slab", sans-serif;
     font-size: 10px;
-    /* font-weight: bold; */
     justify-content: space-evenly;
     padding: 35px;
+    height: 15%;
+}
+.second{
+    width: 100%;
+    height: 100vh;
+    padding-top: 25px;
+    /* margin: 15px; */
+}
+.third{
+    
+    width: 100%;
+    height: 100vh;
+    padding-top: 255px;
+}
+.fourth{
+    width: 100%;
+    height: 20vh;
+    padding-top: 25px;
+}
+
+.bg{
+    background-image: url("https://www.thecarmagazine.com/wp-content/uploads/2022/03/2022_chrysler_airflow_concept_00400.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    flex-direction: column;
+}
+.bottom{
+    background-color: #ffffff;
+    background-size: cover;
+    border-radius: 8px;
+    width: 60%;
+    height: 38vh;
+    float: left;
+    margin-top: 70px;
+    box-sizing: border-box;
+    margin-left: 55px;
+    padding-left: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: "Oswald",sans-serif;
+    font-size: 15px;
+}
+.bg1{
+    background-color: #ffffff;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 38vh;
+    margin-left: 45px;
+}
+.bottom1{
+    font-family: "Oswald",sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    width: 80%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+.bg2{
+    background-color: black;
+    background-size: cover;
+    color: #ffffff;
+    height: 38vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 80;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
+}
+.ctn{
+    padding-top: 15px;
+}
+.buy{
+   padding-top: 15px;
+}
+.cus{
+    padding-top: 15px;
+}
+.buying{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 80;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+}
+.customer{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 80;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; */
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 .newhr{
     border: 1px solid lightblue;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* min-width: 60%; */
-    /* width: 90%; */
-    /* margin: 8px; */
-    
+    margin-top: -60px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.btn-main{
+    background-color: black;
+    color: #ffffff;
+    border-radius: 15px;
+    font-family: "Open Sans", sans-serif;
+    width: 20%;
+    height: 7vh;
+    margin: 15px;
+    font-weight: bold;
+}
+.btn-second{
+    background-color: aliceblue;
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 15px;
+    height: 7vh;
+    width: 20%;
+    font-weight: bold;
+}
+.btn-third{
+    background-color: rgb(0, 107, 230);
+    color: #ffffff;
+    font-family: "Open Sans",sans-serif;
+    border-radius: 1px;
+    height: 7vh;
+    width: 20%;
+    font-weight: bold;
 
 }
 .img{
-    width: 100px;
-    height: 60px;
+   width: 12%;
+   height: 25vh;
+   margin-top:-65px;
+}
+.img1{
+    width: 30%;
+    height: 38vh;
+    float: left;
+    padding: 15px;
+    
 }
 .ri-search-line{
+    font-size: 25px;
+}
+.ri-user-line{
     font-size: 25px;
 }
 .ri-shopping-cart-line{
     font-size: 25px;
 }
-.ri-map-pin-line{
+.ri-facebook-fill{
     font-size: 25px;
+    margin: 15px;
+}
+.ri-twitter-x-line{
+    font-size: 25px;
+    margin: 15px;
+}
+.ri-youtube-line{
+    font-size: 25px;
+    margin: 15px;
+}
+.ri-instagram-line{
+    font-size:25px;
+    margin: 15px;
+}
+.ri-linkedin-fill{
+    font-size:25px;
+    margin: 15px;
 }
